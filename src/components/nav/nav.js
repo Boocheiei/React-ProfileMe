@@ -4,13 +4,21 @@ function Nav (){
     return (
     <div className="grid-nav">
         <div>
-            <h1>hello</h1>
+            <h1>Veerapat Booch</h1>
         </div>
-        <div>
-            <h1>hello</h1>
+        <div className="nav-logo">
+            <img src='./img/logo.png'/>
         </div>
-        <div>
-            <h1>hello</h1>
+        <div className='grid-nav-meun'>
+            <div>
+            <h1>Home</h1>
+            </div>
+            <div>
+            <h1>HtmlCssJs</h1>
+            </div>
+            <div>
+            <h1>React</h1>
+            </div>
         </div>
     </div>
     );
