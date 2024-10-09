@@ -1,0 +1,12 @@
+
+.grid-main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+}
+.grid-main-item1{
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+}
+

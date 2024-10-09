@@ -1,4 +1,5 @@
-import './topnav.css';
+import '../../assets/css/topnav.css';
+import React from 'react';
 
 function Topnav(){
     return(

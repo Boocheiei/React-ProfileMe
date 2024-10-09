@@ -1,16 +1,16 @@
-import './main.css';
+import '../../assets/css/main.css';
+import React from 'react';
 
 function Main(){
     return(
+        <div>
         <div className="grid-main">
             <div className='grid-main-item1'>
-               <div className='asd'>Hello</div>
+
             </div>
-            <h2>hello</h2>
-            <h2>hello</h2>
-            <h2>hello</h2>
-            <h2>hello</h2>
-            <h2>hello</h2>
+            <div>
+            </div>
+        </div>
         </div>
     );
 }

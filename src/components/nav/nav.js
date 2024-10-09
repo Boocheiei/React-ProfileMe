@@ -1,26 +1,32 @@
-import './nav.css';
+import '../../assets/css/nav.css';
+import logo from '../../assets/img/logo.png';
+import React from 'react';
 
-function Nav (){
+function Nav() {
     return (
-    <div className="grid-nav">
-        <div>
-            <h1>Veerapat Booch</h1>
-        </div>
-        <div className="nav-logo">
-            <img src='./img/logo.png'/>
-        </div>
-        <div className='grid-nav-meun'>
-            <div>
-            <h1>Home</h1>
+        <div className="grid-nav">
+            <div className='navname'>
+                <p>
+                    <span>
+                        BoochVeerapat
+                    </span>
+                </p>
             </div>
-            <div>
-            <h1>HtmlCssJs</h1>
+            <div className="nav-logo">
+                <img src={logo} alt='logo' />
             </div>
-            <div>
-            <h1>React</h1>
+            <div className='grid-nav-meun'>
+                <div>
+                    <h1>Home</h1>
+                </div>
+                <div>
+                    <h1>HtmlCssJs</h1>
+                </div>
+                <div>
+                    <h1>React</h1>
+                </div>
             </div>
         </div>
-    </div>
     );
 }
 export default Nav;
