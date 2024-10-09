@@ -5,7 +5,6 @@
   }
   
   .app {
-    min-width: 100vw;
     min-height: 10rem;
     display: flex;
     align-items: center;

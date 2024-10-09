@@ -1,11 +1,28 @@
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+body{
+  height :100%;
+}
+.container{
+  height :100%;
+  width :100%;
+  
+  display :flex;
+}
+.text{
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+}
+.dud{
+  color :#757575;
+}
 .grid-main{
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 }
 .grid-main-item1{
-    background-color: black;
+    background: #1e293b;
     color: aquamarine;
     text-align: center;
 }
